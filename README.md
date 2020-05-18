@@ -1,6 +1,5 @@
 # 前言
 本学期项目做了一个共享画板加聊天室项目，放假之余，对项目中的难点进行总结归纳。
-github地址：https://github.com/Zongrul1/RMI-WB.git
 # 总体结构
 系统分为四个部分，CreateWhiteBoard为房间管理员，JoinWhiteBoard为房间普通成员，Remote为RMI接口，Server为服务端管理，以下是各部分关系图，各部分具体实现将下文详细描述。
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20191118181847377.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl8zNzc4MTU3OA==,size_16,color_FFFFFF,t_70)
@@ -575,8 +574,4 @@ public void mouseDragged(MouseEvent e) {
 # JoinWhiteBoard模块
 除没有文件保存功能以及成员管理功能外，其余与cwb模块相同。
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20191119193924968.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl8zNzc4MTU3OA==,size_16,color_FFFFFF,t_70)
-=======
-# RMI-WB
-利用RMI搭建的一个具有共享画板以及实时聊天室的系统
-[详细分析参见](https://github.com/Zongrul1/RMI-WhiteBoard/blob/master/%E5%88%A9%E7%94%A8RMI%E6%9E%84%E5%BB%BA%E5%85%B1%E4%BA%AB%E7%94%BB%E6%9D%BF%E5%8A%A0%E8%81%8A%E5%A4%A9%E5%AE%A4%E9%A1%B9%E7%9B%AE%E6%80%BB%E7%BB%93.md)
->>>>>>> 8e3049938b87cbe34f70e08e151b57f971501176
+
