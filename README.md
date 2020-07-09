@@ -1,5 +1,6 @@
 # 前言
 本学期项目做了一个共享画板加聊天室项目，放假之余，对项目中的难点进行总结归纳。
+![](/RMI.png)
 # 总体结构
 系统分为四个部分，CreateWhiteBoard为房间管理员，JoinWhiteBoard为房间普通成员，Remote为RMI接口，Server为服务端管理，以下是各部分关系图，各部分具体实现将下文详细描述。
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20191118181847377.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl8zNzc4MTU3OA==,size_16,color_FFFFFF,t_70)
